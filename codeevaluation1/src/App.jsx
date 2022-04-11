@@ -2,9 +2,9 @@
 import './App.jsx';
 import {React} from "react";
 function App() {
-  var [Score,setCounter] =React.useState("76")
-  var [counterwicket,setCounters] =React.useState("2")
-  var [counterball,setCounterss] =React.useState("50")
+  var [Score,setCounter] =React.useState(76)
+  var [counterwicket,setCounters] =React.useState(2)
+  var [counterball,setCounterss] =React.useState(50)
 
   const scorechange = (value) =>{
     setCounter(Score+value)
