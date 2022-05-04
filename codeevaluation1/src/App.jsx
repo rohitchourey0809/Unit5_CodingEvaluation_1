@@ -1,3 +1,4 @@
+import "./App.css"
 import { useState } from "react";
 function App() {
   const [score, setscore] = useState(76);
@@ -92,6 +93,7 @@ function App() {
       </div>
 
       {/* If score reaches greater than 100, show text "India Won" without quotes in h1 tag with class name 'status' */}
+      {score > 100 ? <h1>India Won</h1> : "Not won"}
     </div>
   );
 }
